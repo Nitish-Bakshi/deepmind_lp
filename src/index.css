@@ -89,19 +89,39 @@ body {
   object-fit: cover;
   border-radius: 10px;
 }
+.bannerDiv h1 {
+  position: absolute;
+  color: white;
+  font-size: 100px;
+  font-weight: 500;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.bannerDiv h3 {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 .bannerDiv .learnMoreBtn {
   position: absolute;
   bottom: -140px;
-  width: 170px;
-  height: 60px;
+  width: 220px;
+  height: 70px;
   border-radius: 20px;
   border: 0;
   font-size: 20px;
   background-color: #003366;
   color: white;
   font-weight: 600;
-  transition: 0.3s ease;
+  transition: 0.5s ease;
   animation: bounce 2s infinite;
 }
 

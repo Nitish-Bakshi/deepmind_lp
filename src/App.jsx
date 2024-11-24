@@ -84,11 +84,10 @@ function RightMenu() {
 function Banner() {
   return (
     <div className="bannerDiv" id="banner">
-      <img
-        src="https://images.unsplash.com/photo-1559523275-98fb3c56faf6?q=80&w=1626&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        alt="Banner"
-      />
-      <button className="learnMoreBtn">Learn More</button>
+      <img src="/public/banner1.jpg" alt="Banner" />
+      <h1>DEEPMIND AMA</h1>
+      <h3>A universal AI agent that is helpful in everyday life</h3>
+      <button className="learnMoreBtn">Submit Your Question</button>
     </div>
   );
 }
