@@ -173,6 +173,7 @@ body {
 }
 .latestNewsDiv .newsGallery .div1 {
   top: 150px;
+  left: 30px;
   animation: shake 8s infinite;
   animation-delay: 1s;
 }
@@ -183,6 +184,7 @@ body {
 
 .latestNewsDiv .newsGallery .div3 {
   top: 100px;
+  right: 30px;
   animation: shake 8s infinite;
   animation-delay: 3s;
 }
