@@ -52,7 +52,7 @@ function LeftMenu() {
         </a>
       </div>
       <div className="menuItem">
-        <a href="#technology">
+        <a href="#technologies">
           Technology <i className="bx bx-chevron-down"></i>
         </a>
       </div>
@@ -147,7 +147,7 @@ function LatestNews() {
 
 function Technologies() {
   return (
-    <div className="technologiesDiv">
+    <div className="technologiesDiv" id="technologies">
       <div className="headingDiv">
         <h1>Technologies</h1>
         <br />
@@ -170,7 +170,7 @@ function Technologies() {
 
 function ExploreMore() {
   return (
-    <div className="exploreMoreDiv">
+    <div className="exploreMoreDiv" id="discover">
       <div className="div textDiv">
         <h1>Explore our other teams and product areas</h1>
       </div>

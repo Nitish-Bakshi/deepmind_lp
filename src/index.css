@@ -117,15 +117,15 @@ body {
   height: 70px;
   border-radius: 20px;
   border: 0;
-  font-size: 20px;
+  font-size: 21px;
   background-color: whitesmoke;
-  color: #0984e3;
+  color: #2d3436;
   font-weight: 600;
   transition: 0.5s ease;
 }
 
 .bannerDiv .learnMoreBtn:hover {
-  border: 3px solid #0984e3;
+  border: 3px solid #2d3436;
 }
 
 /* Latest News */
