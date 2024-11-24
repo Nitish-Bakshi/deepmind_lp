@@ -84,10 +84,7 @@ function RightMenu() {
 function Banner() {
   return (
     <div className="bannerDiv" id="banner">
-      <img
-        src="https://images.unsplash.com/photo-1453738773917-9c3eff1db985?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        alt="Banner"
-      />
+      <img src="unnamed_014.webp" alt="Banner" />
       <h1>DEEPMIND AMA</h1>
       <button className="learnMoreBtn">Submit Your Question</button>
       <h3>A universal AI agent that is helpful in everyday life</h3>
